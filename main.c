@@ -45,7 +45,7 @@ void bumpdate(struct date* now,struct date* Tom,struct date* Yes ) {
       }
     }
     //================================
-    if (--Yes->day<1) //04/01/2022,01/01/2022,02/25/2022,03/01/2024,02/28/2024,01/01/2000
+    if (--Yes->day<1) 
     {
 
       if(now->month>=2)Yes->day =daysPerMonth[now->month-2];
